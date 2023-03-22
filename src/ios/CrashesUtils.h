@@ -3,7 +3,7 @@
 
 #import <Foundation/Foundation.h>
 
-@import AppCenterCrashes.MSErrorReport;
+@import AppCenterCrashes.MSACErrorReport;
 
-NSDictionary* convertReportToJS(MSErrorReport* report);
+NSDictionary* convertReportToJS(MSACErrorReport* report);
 NSArray* convertReportsToJS(NSArray* reports);
